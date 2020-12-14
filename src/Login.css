@@ -1,0 +1,98 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.loginbox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: linear-gradient(5deg, #17497b, #879ce0);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    -o-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+}
+
+.gbtn {
+    background-color: rgb(39, 23, 184);
+    padding: 20px;
+    margin-top: 80px;
+    width: 70%;
+}
+
+.cbtn {
+    background-color: rgb(30, 226, 23);
+    padding: 20px;
+    width: 70%;
+}
+
+.ctext {
+    text-decoration: none;
+}
+
+.logincontainer {
+    width: 70%;
+    height: 50%;
+    margin-top: 150px;
+    position: fixed;
+    margin-left: 17%;
+    align-items: center;
+    background: linear-gradient(5deg, #f73310, #deb817);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 46s ease infinite;
+    -moz-animation: AnimationName 46s ease infinite;
+    -o-animation: AnimationName 46s ease infinite;
+    animation: AnimationName 46s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 56% 0%
+    }
+    50% {
+        background-position: 45% 100%
+    }
+    100% {
+        background-position: 56% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 56% 0%
+    }
+    50% {
+        background-position: 45% 100%
+    }
+    100% {
+        background-position: 56% 0%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 56% 0%
+    }
+    50% {
+        background-position: 45% 100%
+    }
+    100% {
+        background-position: 56% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 56% 0%
+    }
+    50% {
+        background-position: 45% 100%
+    }
+    100% {
+        background-position: 56% 0%
+    }
+}
